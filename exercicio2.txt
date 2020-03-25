@@ -1,0 +1,24 @@
+public class trabalho1 {
+     public static void main (String[] args)    {
+             
+             
+     Scanner scanner = new Scanner(System.in);
+                float i = scanner.nextFloat();
+                if(i < 1377.08){
+                        System.out.println(i - i * 0.08);
+                        scanner.close();
+                        return;
+                }
+                if(i < 2195.13){
+                        System.out.println(i - i * 0.09);
+                        scanner.close();
+                        return;        
+                }
+                if(i < 4390.25){
+                        System.out.println(i - i * 0.11);
+                        scanner.close();
+                        return;
+                }
+                scanner.close();
+        }
+     }
