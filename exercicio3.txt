@@ -1,0 +1,44 @@
+public class exercicio3 {
+   
+    	public static void main(String[] args){
+          Scanner scanner = new Scanner(System.in);
+                int i = scanner.nextInt();
+                String s = "";
+                switch(i){
+                        case 1: s = "Janeiro";
+                            break;
+                        case 2: s = "Fev";
+                            break;
+                        case 3: s = "Março";
+                            break;
+                        case 4: s = "Abril";
+                            break;
+                        case 5: s = "Maio";
+                            break;
+                        case 6: s = "Junho";
+                            break;
+                        case 7: s = "Julho";
+                            break;
+                        case 8: s = "Agosto";
+                            break;
+                        case 9: s = "Setembro";
+                            break;
+                        case 10: s = "Outubro";
+                            break;
+                        case 11: s = "Novembro";
+                            break;
+                        case 12: s = "Dezembro";
+                            break;
+                       default:
+                      System.out.println("Este não é um dia válido");      
+                }
+                System.out.println(s);
+                scanner.close();  
+            
+            
+            
+            
+        }
+              
+       
+}
