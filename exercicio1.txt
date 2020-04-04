@@ -1,0 +1,21 @@
+public class Exercicio2 {
+   
+     public static void main(String[] args)
+    {       
+
+        double np1, np2, mf;
+               
+        np1 = Double.parseDouble(JOptionPane.showInputDialog("Digite a nota da prova 1"));
+        np2 = Double.parseDouble(JOptionPane.showInputDialog("Digite a nota da prova 2"));
+     
+        mf = (np1 + np2) / 2;
+       if (mf >= 7)
+        {
+            JOptionPane.showMessageDialog(null, String.format("Aprovado: %.2f ",  mf)); 
+        }
+        else
+        {
+            JOptionPane.showMessageDialog(null, String.format("Reprovado: %.2f ", mf)); 
+    }       
+}  
+}
