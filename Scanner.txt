@@ -1,0 +1,37 @@
+public class ExemploUtilizandoScanner {
+    
+    // Exemplo de como obter entrada de dados
+    
+    public static void main(String[] args)
+    {
+        // para ler um double leitura.nextDouble();
+        // para ler um int leitura.nextInt();
+        // para ler um float leitura.nextFloat();
+        // para ler uma linha leitura.nextLine();
+        /*
+        Scanner leitura = new Scanner(System.in); // objeto que representa a entrada padrão do sistema (teclado)
+        System.out.print("Digite o primeiro número a ser somado: ");
+        int numero1 = leitura.nextInt();
+        System.out.print("Digite o segundo número a ser somado: ");
+        int numero2 = leitura.nextInt();
+        int soma = numero1 + numero2;
+        System.out.println("O resultado da soma é : " + soma);
+        */
+        /*
+        OBS: Quando queremos ler um número com casa decimal via console, 
+             precisamos digitar o numero utilizando vírgula ( , ), exemplo: 10,50.
+             Quando criamos uma variável dentro do programa e definimos seu valor 
+             com casa decimal, precisamos utilizar o ponto ( . ) como separador, 
+             exemplo: 10.50.
+        */
+        
+        Scanner leitura2 = new Scanner(System.in); // objeto que representa a entrada padrão do sistema (teclado)
+        System.out.print("Digite o primeiro número a ser somado (flutuante): ");
+        double numeroFlutuante1 = leitura2.nextDouble();
+        System.out.print("Digite o segundo nnúmero a ser somado (flutuante): ");
+        double numeroFlutuante2 = leitura2.nextDouble();
+        double somaFlutuante = numeroFlutuante1 + numeroFlutuante2;
+        System.out.println("O resultado da soma é: " + somaFlutuante);
+        
+    }
+}
