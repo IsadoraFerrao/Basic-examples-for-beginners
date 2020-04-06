@@ -1,0 +1,20 @@
+public class Caneta {
+      double tinta;
+      String cor;
+      
+      
+      void escrever (String palavraEscrita)
+      {
+          if (tinta > 0) 
+          {
+          System.out.println(palavraEscrita);
+          tinta = tinta-1;
+          }
+          else
+          {
+              System.out.println("SEM TINTA!");
+
+          }
+      }
+      
+}
