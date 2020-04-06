@@ -1,0 +1,17 @@
+﻿public class Ex1GuiSimples {
+    /* FaÃ§a um programa que solicite o peso do usuÃ¡rio e mostre o cÃ¡lculo do IMC (Ã�ndice de massa corpÃ³rea).
+    A entrada e saÃ­da de informaÃ§Ãµes deve ser feita utilizando a Classe JOptionPane.
+    
+    IMC = peso / (altura)Â² 
+    */
+    
+    public static void main(String args[])
+    {
+        float peso, altura, imc;
+        
+        peso = Float.parseFloat(JOptionPane.showInputDialog("Digite o peso: "));
+        altura = Float.parseFloat(JOptionPane.showInputDialog("Digite a altura: "));           
+        imc = peso / (float)Math.pow(altura,2);
+        JOptionPane.showMessageDialog(null, "IMC: " + imc);        
+    }        
+}
