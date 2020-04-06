@@ -1,0 +1,29 @@
+public class Ex1IfElse {
+   public static void main(String[] args)
+   {
+       /*
+        Faça um programa que calcule a media de duas notas e apos
+        indique que o aluno foi aprovado ou reprovado. A aprovação
+        ocorre caso o aluno tenha uma média maior que 7.
+       */
+       
+       double nota1, nota2, media;   
+       nota1 = 5;
+       nota2 = 8;
+       media = (nota1 + nota2)/2;
+       
+       // if(condicação à ser testada)
+       if(media >= 7)
+       {
+           /* Bloco executado caso a condição testada seja
+           verdadeira. */
+           System.out.println("Aprovado!");
+       }
+       else
+       {
+           /* Bloco executado caso a condição testada seja
+           falsa. */
+           System.out.println("Reprovado!");
+       }
+    }        
+}
