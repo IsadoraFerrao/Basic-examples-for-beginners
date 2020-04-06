@@ -1,0 +1,12 @@
+public class Ex1ForResolvido {
+   // 1) Faça um programa que imprima o quadrado dos números de 20 até 1;
+    
+    public static void main(String args[])
+    {
+      for(int i=20; i > 0; i--)
+      {
+          System.out.println("Número: " + i + " Quadrado: " + Math.pow(i,2));
+      }    
+    }            
+    
+}
